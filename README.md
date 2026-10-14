@@ -112,8 +112,3 @@ Rscript R/main.R --demo
 ```
 
 ---
-
-## 7. Deployment Limitations
-
-- **R Backend Requirement**: The core features of this application (keyword search across titles and content, tag intersection, weighted Jaccard calculation, and CSV read/write persistence) are executed by the R engine.
-- **GitHub Pages Limitation**: GitHub Pages hosts only static client-side files (HTML, CSS, client JavaScript) and cannot execute R code or write to disk. For public hosting, the application must be deployed on an environment capable of running R (such as a VPS, Docker container, or Posit Connect).
